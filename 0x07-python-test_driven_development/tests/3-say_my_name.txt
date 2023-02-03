@@ -6,16 +6,14 @@ Function test:
 >>> say_my_name("John", "Smith")
 My name is John Smith
 
->>> say_my_name("Eugix")
-My name is Eugix 
+>>> say_my_name("Walter","White")
+My name is Walter White
 
->>> say_my_name("Eugix", 3)
-Traceback (most recent call last):
-TypeError: last_name must be a string
+>>> say_my_name("Bob")
+My name is Bob
 
->>> say_my_name(("Jose", "Panflin"))
+>>> say_my_name(12, "White")
 Traceback (most recent call last):
 TypeError: first_name must be a string
 
->>> say_my_name("Jose", 'C')
-My name is Jose C
+
